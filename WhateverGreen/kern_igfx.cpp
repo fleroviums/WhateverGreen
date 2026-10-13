@@ -139,6 +139,7 @@ void IGFX::init() {
 		case CPUInfo::CpuGeneration::RocketLake:
 		case CPUInfo::CpuGeneration::AlderLake:
 		case CPUInfo::CpuGeneration::RaptorLake:
+		case CPUInfo::CpuGeneration::MeteorLake:
 		case CPUInfo::CpuGeneration::ArrowLake:
 			gPlatformGraphicsSupported = false;
 			break;
